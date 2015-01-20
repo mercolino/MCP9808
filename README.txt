@@ -2,6 +2,8 @@
 MCP9808
 ========
 
+If you need more help please visit http://itandsecuritystuffs.wordpress.com/
+
 MCP9808 is a python library that allows to interact with the MCP9808
 temperature sensor, this library gives you access to all the registers
 in the MCP9808 sensor, and there are methods that will allow you to access

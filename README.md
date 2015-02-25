@@ -19,11 +19,11 @@ https://github.com/adafruit/Adafruit_Python_MCP9808
 
 Install this library with:
 
-    `sudo python setup.py install`
+	sudo python setup.py install
     
 To uninstall it use:
 
-	`sudo pip uninstall MCP9808`
+	sudo pip uninstall MCP9808
 
 ### Requirements
 
@@ -34,11 +34,11 @@ https://github.com/adafruit/Adafruit_Python_GPIO
 
 First you should import the library using:
 
-    `import MCP9808.mcp9808 as mcp`
+    import MCP9808.mcp9808 as mcp
 
 Then you need to instantiate the object:
 
-    `sensor = mcp.MCP9808()`
+    sensor = mcp.MCP9808()
     
 Then you could call the methods using the object recently created, for example:
 ```

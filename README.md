@@ -34,17 +34,17 @@ https://github.com/adafruit/Adafruit_Python_GPIO
 
 First you should import the library using:
 
-    import MCP9808.mcp9808 as mcp
+	import MCP9808.mcp9808 as mcp
 
 Then you need to instantiate the object:
 
-    sensor = mcp.MCP9808()
+	sensor = mcp.MCP9808()
     
 Then you could call the methods using the object recently created, for example:
-```
-    sensor.clearConfigReg() # Method to clear the config Register
-    sensor.setResolution(0.25) # Method used to set the resolution of the sensor
-```
+
+	sensor.clearConfigReg() # Method to clear the config Register
+	sensor.setResolution(0.25) # Method used to set the resolution of the sensor
+
 There are some things that you should keep in mind:
 
 - When using the method **setTempHyst(thyst)** the thyst value should be in the list [0, +1.5, +3.0, +6.0]

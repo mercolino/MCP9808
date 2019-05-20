@@ -109,7 +109,7 @@ class MCP9808(object):
                         self._device.write16(MCP9808_REG_CONFIG, self._i2c.reverseByteOrder(new_config))
                         self._logger.debug('Temperature Hysteresis set: {0:#06X}'.format(new_config))
 			return [1, self._device.readU16BE(MCP9808_REG_CONFIG)]
-		elif thyst== 0:
+		elif thyst== 6:
 			t = 0x0600
 			new_config = (config & 0xF9FF) | t
                         self._device.write16(MCP9808_REG_CONFIG, self._i2c.reverseByteOrder(new_config))
